@@ -1,5 +1,5 @@
 # [Go] 一种简化处理 HTTP Error 的技术
-# [Go] A Technique Simplify the Verbosity of HTTP Error Handling
+### [Go] A Technique Simplifies the Verbosity of HTTP Error Handling
 
 *This note is based on [Kevin Gillette's 'Effective Go Error Handling Talk"](https://go-talks.appspot.com/github.com/xtblog/gotalks/error-handling.slide)*
 

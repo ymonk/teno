@@ -22,7 +22,7 @@ func MyHandle(w http.ResponseWriter, r *http.Request) {
   }
 }
 ```
-
+http.Error() 的缺省行为也无非是将错误信息写入到 w 中，从而得以在浏览器中显示。可是设定的 Status code 有啥用呢？
 
 
 

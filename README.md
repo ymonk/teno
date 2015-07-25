@@ -8,7 +8,7 @@ A set of tech notes while developing vtabula
 * Redis and MongoDB
 * React.js
 * Natural languge processing
-* Big Data Anlytics with Spark
+* Big Data Analytics with Spark
 
 
 

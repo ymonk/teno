@@ -11,7 +11,7 @@ func MyHandle(w http.ResponseWriter, r *http.Request) {
   // Retrieve data from DB
   record, err := db.Get("key")
   if err != nil {
-    http.Error(w, err.Error(), 500)  // Database error translated to HTTP internal error
+    http.Error(w, err.Error(), StatusInternalServerError)  // Database error translated to HTTP internal error
     return
   }
   
